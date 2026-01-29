@@ -8,9 +8,8 @@
   <style>
     body { padding: 20px; padding-bottom: 50px; background-color: #fcfcfc; }
     
-    /* --- ESTILOS PERsSONALIZADOSS --- */
+    /* --- ESTILOS PERSONALIZADOS --- */
     
-    /* Imagen de cabecera: Ajusta el max-height si la quieres más grande o chica */
     .header-logo {
       max-height: 120px; 
       width: auto;
@@ -57,12 +56,27 @@
     .search-item:hover { background-color: #f8f9fa; }
     .no-result-item { padding: 15px; text-align: center; cursor: default; }
     .no-result-item:hover { background-color: white; }
+
+    /* Estilos para el Footer */
+    .privacy-link {
+      color: #6c757d;
+      font-size: 0.9em;
+      text-decoration: underline;
+    }
+    .privacy-link:hover {
+      color: #247c7d;
+    }
+    .copyright-text {
+      font-size: 0.8em;
+      color: #adb5bd; /* Gris muy suave */
+      margin-top: 5px;
+    }
   </style>
 </head>
 <body>
   <div class="container">
     
-<div class="text-center">
+    <div class="text-center">
       <img src="https://lh3.googleusercontent.com/d/1rY7ZW9JpOxXykLYWuCw_BA4nl1wIVe4W" 
            alt="Logotipo" 
            class="img-fluid header-logo"
@@ -140,6 +154,18 @@
       <p>Procesando...</p>
     </div>
     <div id="results" class="alert mt-3" style="display:none;"></div>
+
+    <div class="mt-5 mb-3 text-center">
+      <hr>
+      <div class="mb-2">
+        <a href="https://drive.google.com/file/d/1GHkRXngHbdwCY7NochnN4wqRC1piTTf6/view?usp=sharing" target="_blank" class="privacy-link">
+          Consulta nuestro aviso de privacidad
+        </a>
+      </div>
+      <div class="copyright-text">
+        &copy; 2026 FMCN. Todos los derechos reservados.
+      </div>
+    </div>
 
   </div>
 
